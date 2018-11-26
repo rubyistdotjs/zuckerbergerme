@@ -1,0 +1,15 @@
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
+
+@import "_buttons.css";
+
+@import "tailwindcss/components";
+
+@keyframes rotate {
+  from { transform: rotate3d(0, 0, 1, 0deg) }
+  to { transform: rotate3d(0, 0, 1, 360deg) }
+}
+
+.rotate {
+  animation: rotate 2s infinite linear;
+}

@@ -1,0 +1,35 @@
+/* Core ----------------------------------------------------------------------- */
+
+.btn {
+  @apply .inline-block .text-sm .text-white .font-semibold .leading-none
+         .no-underline .px-6 .py-4 .mr-2 .mb-2 .rounded-full .cursor-pointer;
+}
+
+.btn:hover:not(:disabled), .btn:focus:not(:disabled) {
+  @apply .outline-none .shadow-md;
+}
+
+.btn:disabled {
+  @apply .opacity-75 .cursor-not-allowed;
+}
+
+/* Plain colors ----------------------------------------------------------------*/
+
+.btn-purple {
+  @apply .bg-purple-dark;
+}
+
+.btn-purple:hover:not(:disabled), .btn-purple:focus:not(:disabled) {
+  @apply .bg-purple-darker;
+}
+
+
+/* Discret colors ------------------------------------------------------------- */
+
+.btn-discret {
+  @apply .text-grey-darker .bg-transparent;
+}
+
+.btn-discret:hover:not(:disabled), .btn-discret:focus:not(:disabled) {
+  @apply .text-black .bg-grey-light;
+}
