@@ -10,8 +10,6 @@
 
 # production
 /build
-.firebase
-**/.firebaserc
 
 # PostCSS
 src/application.css
