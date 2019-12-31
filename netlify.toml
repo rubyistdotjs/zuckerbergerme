@@ -1,3 +1,21 @@
 [build]
   Command = "yarn build"
   Publish = "build"
+
+[[redirects]]
+  from = "http://zuckerbergerme.netlify.com/*"
+  to = "https://zuckerbergerme.romainguilloteau.dev/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://zuckerbergerme.netlify.com/*"
+  to = "https://zuckerbergerme.romainguilloteau.dev/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://zuckerbergerme.romainguilloteau.com/*"
+  to = "https://zuckerbergerme.romainguilloteau.dev/:splat"
+  status = 301
+  force = true
