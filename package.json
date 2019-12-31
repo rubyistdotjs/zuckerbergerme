@@ -9,7 +9,7 @@
     "Franck ERNEWEIN (https://github.com/FranckErnewein)"
   ],
   "dependencies": {
-    "face-api.js": "^0.16.2",
+    "face-api.js": "^0.22.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-dropzone": "^10.2.0",
