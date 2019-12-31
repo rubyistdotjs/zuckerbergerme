@@ -16,22 +16,22 @@
 /* Plain colors ----------------------------------------------------------------*/
 
 .btn-purple {
-  @apply .bg-purple-dark;
+  @apply .bg-purple-600;
 }
 
 .btn-purple:hover:not(:disabled),
 .btn-purple:focus:not(:disabled) {
-  @apply .bg-purple-darker;
+  @apply .bg-purple-700;
 }
 
 
 /* Discret colors ------------------------------------------------------------- */
 
 .btn-discret {
-  @apply .text-grey-darker .bg-transparent;
+  @apply .text-gray-700 .bg-transparent;
 }
 
 .btn-discret:hover:not(:disabled),
 .btn-discret:focus:not(:disabled) {
-  @apply .text-black .bg-grey-light;
+  @apply .text-black .bg-gray-400;
 }
