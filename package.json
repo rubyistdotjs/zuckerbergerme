@@ -12,7 +12,7 @@
     "face-api.js": "^0.16.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-dropzone": "^8.0.0",
+    "react-dropzone": "^10.2.0",
     "react-scripts": "^3.3.0"
   },
   "scripts": {
