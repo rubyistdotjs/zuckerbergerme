@@ -22,7 +22,7 @@ function ImageUpload({ onImageChange }) {
         isDragActive ? 'border-purple-400' : ''
       } flex-1 flex flex-col justify-center items-center text-center w-full h-full p-8 md:p-12 border-2 border-grey-400 border-dashed rounded`}
     >
-      <h1 className="text-black text-2xl font-semibold leading-tight antialiased mb-2">
+      <h1 className="text-gray-900 text-2xl font-semibold leading-tight antialiased mb-2">
         Drag & Drop your picture here
       </h1>
       <span className="text-gray-500 font-semibold leading-tight">
