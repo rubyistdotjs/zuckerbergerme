@@ -1,11 +1,11 @@
 /* Core ----------------------------------------------------------------------- */
 
 .btn {
-  @apply .inline-block .text-sm .text-white .font-semibold .leading-none
-         .no-underline .px-6 .py-4 .mr-2 .mb-2 .rounded-full .cursor-pointer;
+  @apply .inline-block .text-sm .text-white .font-semibold .leading-none .no-underline .px-6 .py-4 .mr-2 .mb-2 .rounded-full .cursor-pointer;
 }
 
-.btn:hover:not(:disabled), .btn:focus:not(:disabled) {
+.btn:hover:not(:disabled),
+.btn:focus:not(:disabled) {
   @apply .outline-none .shadow-md;
 }
 
@@ -19,7 +19,8 @@
   @apply .bg-purple-dark;
 }
 
-.btn-purple:hover:not(:disabled), .btn-purple:focus:not(:disabled) {
+.btn-purple:hover:not(:disabled),
+.btn-purple:focus:not(:disabled) {
   @apply .bg-purple-darker;
 }
 
@@ -30,6 +31,7 @@
   @apply .text-grey-darker .bg-transparent;
 }
 
-.btn-discret:hover:not(:disabled), .btn-discret:focus:not(:disabled) {
+.btn-discret:hover:not(:disabled),
+.btn-discret:focus:not(:disabled) {
   @apply .text-black .bg-grey-light;
 }

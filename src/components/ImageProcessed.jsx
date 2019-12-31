@@ -1,7 +1,6 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
-const ImageProcessed = ({ processedImage, onZuckMeMore }) => {
+function ImageProcessed({ processedImage, onZuckMeMore }) {
   return (
     <div className="flex flex-col justify-center w-full h-full">
       <div className="-mt-10 mb-5 flex flex-row justify-end items-center">
@@ -25,11 +24,6 @@ const ImageProcessed = ({ processedImage, onZuckMeMore }) => {
       </div>
     </div>
   );
-};
-
-ImageProcessed.propTypes = {
-  processedImage: PropTypes.string.isRequired,
-  onZuckMeMore: PropTypes.func.isRequired,
-};
+}
 
 export default ImageProcessed;

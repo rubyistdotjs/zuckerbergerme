@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Initialization = () => {
+function Initialization() {
   return (
     <div>
       <h1 className="text-black font-xl font-semibold text-center">
@@ -11,6 +11,6 @@ const Initialization = () => {
       </p>
     </div>
   );
-};
+}
 
 export default Initialization;
