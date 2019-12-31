@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactGA from 'react-ga';
 import * as faceapi from 'face-api.js';
 
 import './application.css';
@@ -8,11 +7,6 @@ import Initialization from './components/Initialization';
 import ImageUpload from './components/ImageUpload';
 import ImageProcess from './components/ImageProcess';
 import ImageProcessed from './components/ImageProcessed';
-
-if (process.env.NODE_ENV === 'production') {
-  ReactGA.initialize(process.env.REACT_APP_ANALYTICS_TRACKING_ID);
-  ReactGA.pageview(window.location.pathname + window.location.search);
-}
 
 class App extends React.PureComponent {
   state = {
